@@ -4,6 +4,8 @@ def divide_two_numbers(a, b):
         return "Error: Cant divided by 0."
     return a / b
 
+print(":)")
+
 if __name__ == "__main__":
     result = divide_two_numbers(10, 2) 
     print(f"divide: {result}")
